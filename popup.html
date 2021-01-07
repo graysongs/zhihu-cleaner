@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 5px 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .block {
+      display: block;
+      cursor: pointer;
+      height: 28px;
+      line-height: 30px;
+      padding-left: 10px;
+    }
+
+    .block:hover {
+      background-color: #dadada;
+    }
+
+    input[type="checkbox"]+span {
+      position: relative;
+      top: -2px;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="width: 150px;">
+    <label for="video" class="block">
+      <input type="checkbox" name="video" id="video">
+      <span>移除推荐视频</span>
+    </label>
+    <a class="block" href="https://github.com/graysongs/zhihu-cleaner" target="_blank">
+      GITHUB
+    </a>
+  </div>
+  <script src="popup.js" charset="utf-8"></script>
+</body>
+
+</html>
